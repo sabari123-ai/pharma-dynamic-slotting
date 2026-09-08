@@ -1,0 +1,87 @@
+{
+  "demand_top_5": [
+    {
+      "sku_id": "SKU009",
+      "units": 253,
+      "order_lines": 75,
+      "active_days": 0,
+      "share_pct": 4.77,
+      "velocity_per_active_day": 253.0,
+      "abc_class": "A"
+    },
+    {
+      "sku_id": "SKU026",
+      "units": 221,
+      "order_lines": 60,
+      "active_days": 0,
+      "share_pct": 4.16,
+      "velocity_per_active_day": 221.0,
+      "abc_class": "A"
+    },
+    {
+      "sku_id": "SKU004",
+      "units": 215,
+      "order_lines": 61,
+      "active_days": 0,
+      "share_pct": 4.05,
+      "velocity_per_active_day": 215.0,
+      "abc_class": "A"
+    },
+    {
+      "sku_id": "SKU030",
+      "units": 215,
+      "order_lines": 59,
+      "active_days": 0,
+      "share_pct": 4.05,
+      "velocity_per_active_day": 215.0,
+      "abc_class": "A"
+    },
+    {
+      "sku_id": "SKU013",
+      "units": 205,
+      "order_lines": 68,
+      "active_days": 0,
+      "share_pct": 3.86,
+      "velocity_per_active_day": 205.0,
+      "abc_class": "A"
+    }
+  ],
+  "replenishment_checks": {
+    "worker_violations": [
+      {
+        "worker_id": "W05",
+        "minutes": 624.3,
+        "limit": 420
+      },
+      {
+        "worker_id": "W03",
+        "minutes": 583.6,
+        "limit": 420
+      },
+      {
+        "worker_id": "W01",
+        "minutes": 538.7,
+        "limit": 420
+      },
+      {
+        "worker_id": "W04",
+        "minutes": 606.4,
+        "limit": 420
+      },
+      {
+        "worker_id": "W02",
+        "minutes": 598.0,
+        "limit": 420
+      }
+    ],
+    "location_violations": []
+  },
+  "low_confidence_review_count": 0,
+  "pilot_kpi": {
+    "travel_reduction_pct": 98.5,
+    "congestion_change_pct": -92.9,
+    "hard_violations": 28,
+    "workload_violations": 0,
+    "safe_to_release": false
+  }
+}

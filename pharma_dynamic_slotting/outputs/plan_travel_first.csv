@@ -1,0 +1,3 @@
+sku_id,location_id,pick_frequency,order_qty,estimated_travel_m,replenishment_events,replenishment_minutes,location_congestion_events,objective_score,confidence,override_required
+SKU021,A04,67,187,12.5,12,128.3,16,16.5,low,False
+SKU007,A04,55,151,12.5,9,101.7,16,16.2,low,False

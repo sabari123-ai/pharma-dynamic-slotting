@@ -1,0 +1,32 @@
+sku_id,description,length_cm,width_cm,height_cm,weight_kg,storage_zone,compatibility_class,case_pack,min_pick_temp_c,max_pick_temp_c
+SKU-001,Medicine 1,18.7,6.0,15.3,0.47,AMBIENT,hazmat,1,15,25
+SKU-002,Medicine 2,10.3,13.4,6.6,2.25,15-25 C,standard,1,2,8
+SKU-003,Medicine 3,25.0,16.7,3.9,2.38,2-8C,hazmat,1,2,8
+SKU-004,Medicine 4,23.0,7.7,9.3,2.21, 2-8c ,standard,12,2,8
+SKU-005,Medicine 5,23.7,17.8,8.6,2.24,15-25 C,standard,1,2,8
+SKU-006,Medicine 6,21.4,15.6,14.7,1.92,2-8C,hazmat,24,2,8
+SKU-007,Medicine 7,14.7,8.6,14.7,0.42,AMBIENT,controlled,12,15,25
+SKU-008,Medicine 8,"30,0",10.8,17.7,0.56,2–8 °C,controlled,24,2,8
+SKU-009,Medicine 9,12.1,14.8,3.6,2.71,15-25 C,controlled,12,2,8
+SKU-010,Medicine 10,24.0,16.6,9.8,3.38,AMBIENT,controlled,12,15,25
+SKU-011,Medicine 11,9.6,19.0,12.7,3.97,2–8 °C,standard,24,2,8
+SKU-012,Medicine 12,32.0,11.9,17.1,1.49,AMBIENT,cold_chain,1,15,25
+SKU-013,Medicine 13,13.9,10.7,14.1,,2–8 °C,standard,24,2,8
+SKU-014,Medicine 14,20.1,16.0,16.3,3.3,2-8C,hazmat,12,2,8
+SKU-015,Medicine 15,26.4,12.6,6.5,0.42,2–8 °C,controlled,6,2,8
+SKU-016,Medicine 16,8.3,21.6,5.7,1.2,15-25 C,hazmat,6,2,8
+SKU-017,Medicine 17,24.5,11.4,4.9,3.45,2–8 °C,controlled,1,2,8
+SKU-018,Medicine 18,18.7,12.9,10.2,1.66,2–8 °C,cold_chain,6,2,8
+SKU-019,Medicine 19,19.9,7.2,12.0,0.5,2-8C,hazmat,6,2,8
+SKU-020,Medicine 20,24.6,6.4,6.1,1.57,2-8C,controlled,12,2,8
+SKU-021,Medicine 21,20.8,7.3,10.3,3.91,AMBIENT,controlled,24,15,25
+SKU-022,Medicine 22,10.3,7.0,8.1,1.13,2–8 °C,controlled,6,2,8
+SKU-023,Medicine 23,33.7,15.6,5.2,2.22,2-8C,hazmat,1,2,8
+SKU-024,Medicine 24,26.8,10.2,8.5,0.75,AMBIENT,standard,6,15,25
+SKU-025,Medicine 25,24.6,20.8,14.4,0.86,AMBIENT,hazmat,6,15,25
+SKU-026,Medicine 26,13.4,14.9,14.0,3.96,2–8 °C,hazmat,12,2,8
+SKU-027,Medicine 27,13.2,17.1,8.2,3.25,2–8 °C,controlled,12,2,8
+SKU-028,Medicine 28,14.0,9.5,6.0,0.9,AMBIENT,standard,1,15,25
+SKU-029,Medicine 29,29.6,6.7,12.9,3.65,2–8 °C,controlled,6,2,8
+SKU-030,Medicine 30,19.7,17.7,4.3,3.79,2–8 °C,hazmat,24,2,8
+SKU-005,Medicine 5,23.7,17.8,8.6,2.24,15-25 C,standard,1,2,8
