@@ -1,0 +1,9 @@
+sku_id,location_id,pick_frequency,order_qty,estimated_travel_m,replenishment_events,replenishment_minutes,location_congestion_events,congestion_penalty,objective_score,confidence,override_required
+SKU009,C01,75,253,65.0,15,139.1,8,20.0,73.2,medium,False
+SKU013,C01,68,205,65.0,9,80.4,8,20.0,70.27,low,False
+SKU021,A06,67,187,20.0,12,128.3,6,7.2,30.61,low,False
+SKU022,C01,62,175,65.0,14,150.7,8,20.0,73.78,low,False
+SKU030,C01,59,215,65.0,12,119.9,8,20.0,72.25,low,False
+SKU007,A03,55,151,13.6,9,101.7,7,12.8,30.73,high,False
+SKU011,C01,55,176,65.0,11,95.4,8,20.0,71.02,low,False
+SKU020,C01,47,171,65.0,10,87.8,8,20.0,70.64,low,False

@@ -1,0 +1,955 @@
+{
+  "input_summary": {
+    "skus": 30,
+    "order_lines": 1717,
+    "locations": 36,
+    "replenishment_events": 300
+  },
+  "baseline_rows": 29,
+  "metrics": {
+    "travel_first": {
+      "baseline_weighted_travel_m": 112442.1,
+      "optimised_weighted_travel_m": 25351.6,
+      "travel_reduction_pct": 77.5,
+      "baseline_replenishment_congestion": 196,
+      "optimised_replenishment_congestion": 68,
+      "congestion_change_pct": -65.3
+    },
+    "balanced": {
+      "baseline_weighted_travel_m": 112442.1,
+      "optimised_weighted_travel_m": 25878.0,
+      "travel_reduction_pct": 77.0,
+      "baseline_replenishment_congestion": 196,
+      "optimised_replenishment_congestion": 61,
+      "congestion_change_pct": -68.9
+    }
+  },
+  "plans": {
+    "travel_first": {
+      "plan": [
+        {
+          "sku_id": "SKU009",
+          "location_id": "C01",
+          "pick_frequency": 75,
+          "order_qty": 253,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 15,
+          "replenishment_minutes": 139.1,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 68.7,
+          "confidence": "low",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU013",
+          "location_id": "C01",
+          "pick_frequency": 68,
+          "order_qty": 205,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 9,
+          "replenishment_minutes": 80.4,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 68.1,
+          "confidence": "medium",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU021",
+          "location_id": "A05",
+          "pick_frequency": 67,
+          "order_qty": 187,
+          "estimated_travel_m": 12.8,
+          "replenishment_events": 12,
+          "replenishment_minutes": 128.3,
+          "location_congestion_events": 10,
+          "congestion_penalty": 39.2,
+          "objective_score": 16.39,
+          "confidence": "low",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU022",
+          "location_id": "C01",
+          "pick_frequency": 62,
+          "order_qty": 175,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 14,
+          "replenishment_minutes": 150.7,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 68.6,
+          "confidence": "medium",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU030",
+          "location_id": "C01",
+          "pick_frequency": 59,
+          "order_qty": 215,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 12,
+          "replenishment_minutes": 119.9,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 68.4,
+          "confidence": "medium",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU007",
+          "location_id": "A05",
+          "pick_frequency": 55,
+          "order_qty": 151,
+          "estimated_travel_m": 12.8,
+          "replenishment_events": 9,
+          "replenishment_minutes": 101.7,
+          "location_congestion_events": 10,
+          "congestion_penalty": 39.2,
+          "objective_score": 16.09,
+          "confidence": "low",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU011",
+          "location_id": "C01",
+          "pick_frequency": 55,
+          "order_qty": 176,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 11,
+          "replenishment_minutes": 95.4,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 68.3,
+          "confidence": "medium",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU020",
+          "location_id": "C01",
+          "pick_frequency": 47,
+          "order_qty": 171,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 10,
+          "replenishment_minutes": 87.8,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 68.2,
+          "confidence": "medium",
+          "override_required": false
+        }
+      ],
+      "uncertainty": [
+        {
+          "sku_id": "SKU009",
+          "confidence": "low",
+          "score_margin": 0.026,
+          "alternatives_considered": 3
+        },
+        {
+          "sku_id": "SKU013",
+          "confidence": "medium",
+          "score_margin": 0.055,
+          "alternatives_considered": 7
+        },
+        {
+          "sku_id": "SKU021",
+          "confidence": "low",
+          "score_margin": 0.033,
+          "alternatives_considered": 7
+        },
+        {
+          "sku_id": "SKU022",
+          "confidence": "medium",
+          "score_margin": 0.055,
+          "alternatives_considered": 5
+        },
+        {
+          "sku_id": "SKU030",
+          "confidence": "medium",
+          "score_margin": 0.055,
+          "alternatives_considered": 5
+        },
+        {
+          "sku_id": "SKU007",
+          "confidence": "low",
+          "score_margin": 0.033,
+          "alternatives_considered": 5
+        },
+        {
+          "sku_id": "SKU011",
+          "confidence": "medium",
+          "score_margin": 0.055,
+          "alternatives_considered": 7
+        },
+        {
+          "sku_id": "SKU020",
+          "confidence": "medium",
+          "score_margin": 0.055,
+          "alternatives_considered": 7
+        }
+      ],
+      "hard_violations": [
+        {
+          "sku_id": "SKU023",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU006",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU004",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU026",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU018",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU024",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU012",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU010",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU003",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU001",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU025",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU017",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU002",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU027",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU008",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU015",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU028",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU029",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU005",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU019",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU014",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU016",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        }
+      ],
+      "workload_violations": [
+        {
+          "worker": "ALL",
+          "minutes": 903.3,
+          "limit": 420.0,
+          "reason": "replenishment workload exceeds shift limit"
+        }
+      ],
+      "objective": "travel_first"
+    },
+    "balanced": {
+      "plan": [
+        {
+          "sku_id": "SKU009",
+          "location_id": "C01",
+          "pick_frequency": 75,
+          "order_qty": 253,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 15,
+          "replenishment_minutes": 139.1,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 73.2,
+          "confidence": "medium",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU013",
+          "location_id": "C01",
+          "pick_frequency": 68,
+          "order_qty": 205,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 9,
+          "replenishment_minutes": 80.4,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 70.27,
+          "confidence": "low",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU021",
+          "location_id": "A06",
+          "pick_frequency": 67,
+          "order_qty": 187,
+          "estimated_travel_m": 20.0,
+          "replenishment_events": 12,
+          "replenishment_minutes": 128.3,
+          "location_congestion_events": 6,
+          "congestion_penalty": 7.2,
+          "objective_score": 30.61,
+          "confidence": "low",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU022",
+          "location_id": "C01",
+          "pick_frequency": 62,
+          "order_qty": 175,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 14,
+          "replenishment_minutes": 150.7,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 73.78,
+          "confidence": "low",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU030",
+          "location_id": "C01",
+          "pick_frequency": 59,
+          "order_qty": 215,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 12,
+          "replenishment_minutes": 119.9,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 72.25,
+          "confidence": "low",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU007",
+          "location_id": "A03",
+          "pick_frequency": 55,
+          "order_qty": 151,
+          "estimated_travel_m": 13.6,
+          "replenishment_events": 9,
+          "replenishment_minutes": 101.7,
+          "location_congestion_events": 7,
+          "congestion_penalty": 12.8,
+          "objective_score": 30.73,
+          "confidence": "high",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU011",
+          "location_id": "C01",
+          "pick_frequency": 55,
+          "order_qty": 176,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 11,
+          "replenishment_minutes": 95.4,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 71.02,
+          "confidence": "low",
+          "override_required": false
+        },
+        {
+          "sku_id": "SKU020",
+          "location_id": "C01",
+          "pick_frequency": 47,
+          "order_qty": 171,
+          "estimated_travel_m": 65.0,
+          "replenishment_events": 10,
+          "replenishment_minutes": 87.8,
+          "location_congestion_events": 8,
+          "congestion_penalty": 20.0,
+          "objective_score": 70.64,
+          "confidence": "low",
+          "override_required": false
+        }
+      ],
+      "uncertainty": [
+        {
+          "sku_id": "SKU009",
+          "confidence": "medium",
+          "score_margin": 0.073,
+          "alternatives_considered": 3
+        },
+        {
+          "sku_id": "SKU013",
+          "confidence": "low",
+          "score_margin": 0.024,
+          "alternatives_considered": 7
+        },
+        {
+          "sku_id": "SKU021",
+          "confidence": "low",
+          "score_margin": 0.047,
+          "alternatives_considered": 7
+        },
+        {
+          "sku_id": "SKU022",
+          "confidence": "low",
+          "score_margin": 0.023,
+          "alternatives_considered": 5
+        },
+        {
+          "sku_id": "SKU030",
+          "confidence": "low",
+          "score_margin": 0.024,
+          "alternatives_considered": 5
+        },
+        {
+          "sku_id": "SKU007",
+          "confidence": "high",
+          "score_margin": 0.775,
+          "alternatives_considered": 5
+        },
+        {
+          "sku_id": "SKU011",
+          "confidence": "low",
+          "score_margin": 0.024,
+          "alternatives_considered": 7
+        },
+        {
+          "sku_id": "SKU020",
+          "confidence": "low",
+          "score_margin": 0.024,
+          "alternatives_considered": 7
+        }
+      ],
+      "hard_violations": [
+        {
+          "sku_id": "SKU023",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU006",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU004",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU026",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU018",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU024",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU012",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU010",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU003",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU001",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU025",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU017",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU002",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU027",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU008",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU015",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU028",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU029",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU005",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU019",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU014",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        },
+        {
+          "sku_id": "SKU016",
+          "reason": "no compatible location",
+          "checks": [
+            "zone",
+            "blocked",
+            "temperature",
+            "hazard",
+            "location_capacity",
+            "weight",
+            "zone_capacity"
+          ]
+        }
+      ],
+      "workload_violations": [
+        {
+          "worker": "ALL",
+          "minutes": 903.3,
+          "limit": 420.0,
+          "reason": "replenishment workload exceeds shift limit"
+        }
+      ],
+      "objective": "balanced"
+    }
+  }
+}
